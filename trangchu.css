@@ -1,0 +1,100 @@
+header {
+    height: 100px;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-image: url(images/header.png);
+}
+
+
+#png1{
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    animation-name: png1;
+    animation-duration: 3s;
+}
+#png2{
+    height: 70px;
+    position: absolute;
+    left: 45%;
+    top: -5px;
+    animation-name: png2;
+    animation-duration: 3s;
+}
+#png3{
+    height: 80px;
+    position: absolute;
+    left: 63%;
+    top: 0px;
+    animation-name: png3;
+    animation-duration: 3s;
+}
+
+@keyframes png1 { 
+    0% {
+        left: 80%;
+    }
+    100% {
+        left: 30%;
+    }
+}
+
+@keyframes png2 { 
+    0% {
+        left: 80%;
+    }
+    100% {
+        left: 45%;
+    }
+}
+@keyframes png3 { 
+    0% {
+        left: 80%;
+    }
+    100% {
+        left: 63%;
+    }
+}
+
+nav{
+    margin-top: 40px;
+}
+
+
+nav a {
+    height: 20px;
+    margin: 3px;
+    padding: 2px 4px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #ed5190;
+    font-size: 17px;
+    background-color: #ffffff80;
+    box-shadow: 3px 3px #00000066;
+    box-shadow: 2px 2px #0000004d;
+
+}
+nav a:hover{
+    color: #fff;
+    background-color: #ed4190;
+}
+
+.fa-facebook, .fa-twitter, .fa-pinterest{
+    font-size: x-large;
+    padding: 10px;
+}
+.fa-facebook:hover{
+    font-size: 30px;
+    color: #2710d4;
+}
+.fa-pinterest:hover {
+    font-size: 30px;
+    color: red;
+}
+
+.fa-twitter:hover{
+    font-size: 30px;
+    color: rgb(71, 139, 208);
+}

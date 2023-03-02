@@ -8,6 +8,7 @@ header {
   border-radius: 5px;
   padding: 0 5px;
   background-image: url(images/header.png);
+  margin-bottom: 5px;
 }
 
 #png1{
